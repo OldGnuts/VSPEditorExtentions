@@ -42,7 +42,7 @@ Imports are added to the vegetation package. By default this will check the pack
 Imported items instances are stored in persistent vegetation storage.
 Instances can be removed by either deleting them from the vegetation package, or they can be removed in the persistent storage component editor.
 The items added from hierarch are tagged as "Scene Object Importer" and can be deleted without affecting vegetation that you have baked from rules.
-Similarly trees and details are tagged respectively.
+Similarly imports from terrain are tagged respectively, trees and details.
 
 It is possible to undo changes made in the Bulk Editor, however not all changes can be undone.
     
