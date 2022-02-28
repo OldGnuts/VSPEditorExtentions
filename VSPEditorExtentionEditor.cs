@@ -16,7 +16,7 @@ namespace VegetationStudioProEditorExtentions
         static readonly string[] tabNames = { "Bulk Edit", "Import From Terrain", "Import From Hierarchy" };
         static readonly string[] bulkEditTabNames = { "Copy and Paste Settings", "Copy and Paste Items", "Single Package Delete", "Single Package Misc Editing" };
         string vegetationPackageName = "";
-        readonly Color headerColor = new Color(.2f, .2f, .6f);
+        readonly Color headerColor = new Color(.2f, .2f, .2f);
         int selectionCount = 0; // Unused at the moment
 
         // Formatting
