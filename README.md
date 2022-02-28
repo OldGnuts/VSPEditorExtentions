@@ -2,7 +2,9 @@
 To use goto Window tab, select VSP Editor Extention
 
 !! Use this at your own risk. Please create a test scene and experiment with the functionality to better understand how to use this.
+
 !! There is limited undo implemented and this will most likely make permanent changes to your scene.
+
 !! This project is still a work in progress however it has been tested and if you find some bugs, let me know
 
 Bulk editing :
