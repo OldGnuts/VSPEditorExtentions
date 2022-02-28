@@ -39,7 +39,7 @@ Import from Hierarchy:
     An example is a parent object named Rocks. It contains rock prefabs. Change its type to Objects or Large Objects.
     
 Imports are added to the vegetation package. By default this will check the package first and not duplicate items. 
-\nImported items instances are stored in persistent vegetation storage.
+/nImported items instances are stored in persistent vegetation storage.
 Instances can be removed by either deleting them from the vegetation package, or they can be removed in the persistent storage component editor.
 The items added from hierarch are tagged as "Scene Object Importer" and can be deleted without affecting vegetation that you have baked from rules.
 Similarly trees and details are tagged respectively.
