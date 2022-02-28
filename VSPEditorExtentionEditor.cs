@@ -104,10 +104,10 @@ namespace VegetationStudioProEditorExtentions
                         {
                             EditorGUILayout.Space(spacing);
                             EditorGUILayout.HelpBox("This takes objects in the hierarchy and adds them to the vegetation package and store the instances in persistent storage. This will DISABLE the objects that it converts to VSP", MessageType.Warning);
-                            EditorGUILayout.Space(spacing);
-                            CreateNewPrefabWith3LODs = GUILayout.Toggle(CreateNewPrefabWith3LODs, new GUIContent("Create a new asset and remove the 4rd LOD (Useful if 4rd LOD is cross)", "This will create a new prefab without the 4th LOD removed, if a 4th LOD exists."));
-                            EditorGUILayout.Space(spacing);
-                            TryToConvertToNMVSPrefabs = GUILayout.Toggle(TryToConvertToNMVSPrefabs, new GUIContent("Try to use Nature Manufacture Tree VSPrefabs (Experimental)", "Nature manufacture has specific prefabs that are designed to work well with VSP. Tested to work with Mountain Environment trees."));
+                            //EditorGUILayout.Space(spacing);
+                            //CreateNewPrefabWith3LODs = GUILayout.Toggle(CreateNewPrefabWith3LODs, new GUIContent("Create a new asset and remove the 4rd LOD (Useful if 4rd LOD is cross)", "This will create a new prefab without the 4th LOD removed, if a 4th LOD exists."));
+                            //EditorGUILayout.Space(spacing);
+                            //TryToConvertToNMVSPrefabs = GUILayout.Toggle(TryToConvertToNMVSPrefabs, new GUIContent("Try to use Nature Manufacture Tree VSPrefabs (Experimental)", "Nature manufacture has specific prefabs that are designed to work well with VSP. Tested to work with Mountain Environment trees."));
                             EditorGUILayout.Space(spacing);
                             MinimumNumberOfInstancesRequiredToAdd = EditorGUILayout.IntField(new GUIContent("Minimum Instance Count", "The minimum number of instances of an object before it is considered to be added to VSP"), MinimumNumberOfInstancesRequiredToAdd);
                             EditorGUILayout.Space(spacing);
@@ -224,8 +224,8 @@ namespace VegetationStudioProEditorExtentions
 
             ConvertTerrainTrees = GUILayout.Toggle(ConvertTerrainTrees, "Convert terrain trees ");
             ConvertTerrainDetails = GUILayout.Toggle(ConvertTerrainDetails, "Convert terrain details");
-            CreateNewPrefabWith3LODs = GUILayout.Toggle(CreateNewPrefabWith3LODs, "Create a new prefab assets and remove the 4rd LOD (Useful if 4rd LOD is cross)");
-            TryToConvertToNMVSPrefabs = GUILayout.Toggle(TryToConvertToNMVSPrefabs, "Try to use Nature Manufacture VSPrefabs (Experimental)");
+            //CreateNewPrefabWith3LODs = GUILayout.Toggle(CreateNewPrefabWith3LODs, "Create a new prefab assets and remove the 4rd LOD (Useful if 4rd LOD is cross)");
+            //TryToConvertToNMVSPrefabs = GUILayout.Toggle(TryToConvertToNMVSPrefabs, "Try to use Nature Manufacture VSPrefabs (Experimental)");
 
             if (ConvertTerrainTrees == false && ConvertTerrainDetails == false)
                 EditorGUILayout.HelpBox("You must select to import either terrain trees, details or both", MessageType.Info);
