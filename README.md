@@ -1,7 +1,7 @@
 # VSPEditorExtentions
 To use goto Window tab, select VSP Editor Extention
 
-!! Use this at your own risk. Please create a test scene and experiment with the functionality to better understand how to use this.
+!! Use this at your own risk. Create a test scene and experiment with the functionality to better understand how to use this.
 
 !! There is limited undo implemented and this will most likely make permanent changes to your scene.
 
